@@ -13,7 +13,7 @@ const testimonials = [
     name: "Anna",
     avatar: "A",
     title: "Software Engineer",
-    description: "Best Collective AI Tool Platform.",
+    description: "Collective AI Tool Platform.",
   },
   {
     name: "Mike",
