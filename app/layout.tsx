@@ -1,13 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Exo_2 } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 
 import { ModalProvider } from "@/components/modal-provider";
 import { ToasterProvider } from "@/components/toaster-provider";
 import { CrispProvider } from "@/components/crisp-provider";
 
-const inter = Inter({ subsets: ["latin"] });
+const exo2 = Exo_2({ subsets: ['latin'], weight: '400' })
 
 export const metadata: Metadata = {
   title: "Chloe-AI",
@@ -23,7 +23,7 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <CrispProvider />
-        <body className={inter.className}>
+        <body className={exo2.className}>
           <ModalProvider />
           <ToasterProvider />
           {children}

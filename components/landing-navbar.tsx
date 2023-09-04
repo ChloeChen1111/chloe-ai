@@ -1,6 +1,6 @@
 "use client";
 
-import { Montserrat } from "next/font/google";
+import { Exo_2} from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import { useAuth } from "@clerk/nextjs";
@@ -8,7 +8,7 @@ import { useAuth } from "@clerk/nextjs";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 
-const font = Montserrat({
+const font = Exo_2({
   weight: "600",
   subsets: ["latin"],
 });

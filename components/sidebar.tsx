@@ -1,6 +1,6 @@
 "use client";
 
-import { Montserrat } from "next/font/google";
+import { Exo_2 } from "next/font/google";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
@@ -17,7 +17,7 @@ import {
 import { cn } from "@/lib/utils";
 import { FreeCounter } from "@/components/free-counter";
 
-const montserrat = Montserrat({ weight: "600", subsets: ["latin"] });
+const exo2 = Exo_2({ weight: "600", subsets: ["latin"] });
 
 const routes = [
   {
@@ -77,7 +77,7 @@ const Sidebar = ({ apiLimitCount = 0, isPro = false }: SidebarProps) => {
           <div className="relative w-8 h-8 mr-4">
             <Image fill alt="Logo" src="/logo.png" />
           </div>
-          <h1 className={cn("text-2xl font-bold", montserrat.className)}>
+          <h1 className={cn("text-2xl font-bold", exo2.className)}>
             CHLOE-AI
           </h1>
         </Link>
